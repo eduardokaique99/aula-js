@@ -59,3 +59,7 @@ const funcionario = [
     },
 ];
 
+funcionarios.users.forEach((funcionario) => {
+    console.log(funcionario.nome);
+    console.log(funcionario.email);
+  });
