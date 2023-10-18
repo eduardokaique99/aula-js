@@ -1,22 +1,20 @@
-console.log("Olá mundo")
+console.log("Funções  - Arrow Functions");
+// Função simples
+function digaOi() {
+  alert("oi");
+}
 
-// função simples
-function figaOi() {
-    //alert("Oi");
-};
-
-// função anonima - não tem nome
+// Função anônima - não tem nome
 const digaOi2 = () => {
-    //alert("Oi2");
+  alert("oi2");
 };
 
-// função anonima - de retorno
-const digaOi3 = () => "Oi3";
+// Função anônima - de retorno
+const digaOi3 = () => "oi3";
 
-// função anonima - de retorno com parametro
-const digaOi4 = (nome) => "Oi4" + nome;
+// Função anônima - de retorno com parâmetro
+const digaOi4 = (nome) => "oi4 " + nome;
 
-//alert(digaOi4("Juana"));
-
- // função anonima - de retorno com parametro utilizando template string com crase
-const digaOi5 = (nome) => `Oi5 ${nome}`;
+// Função anônima - de retorno com parâmetro utilizando
+// template string com crase
+const digaOi5 = (nome) => `oi5 ${nome}`;
